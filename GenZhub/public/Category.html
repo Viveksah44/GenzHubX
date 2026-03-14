@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <label class="hamburger-menu">
+    <input type="checkbox">
+  </label>
+
+  <aside class="sidebar">
+    <nav>
+      <ul class="nav-list">
+        <li class="font"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+
+        <li class="font">
+          <a href="Category.html?cat=Anime"><i class="fas fa-film"></i> Anime</a>
+          <ul class="submenu">
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </li>
+
+        <li class="font"><a href="Category.html?cat=Movies"><i class="fas fa-video"></i> Movies</a></li>
+        <li class="font"><a href="Category.html?cat=Tech"><i class="fas fa-laptop"></i> Tech</a></li>
+        <li class="font"><a href="Category.html?cat=Study"><i class="fas fa-book"></i> Study</a></li>
+        <li class="font"><a href="Category.html?cat=Contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="header-container">
+        <div class="logo"></div>
+
+        <div class="search-bar">
+          <input type="text" id="searchInput" onkeyup="searchContent()" placeholder="Search">
+          <button class="button"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </header>
+  </aside>
+  <main class="main-content">   <img src="/GenZhub/public/images/logogogogogoggo (1).png" alt="" srcset="" id = "logo">
+   <h2 id="categoryTitle"></h2>
+   <div class="content-section">
+<div class="content-grid">
+<div id="postsContainer"></div>
+</div>
+</div>
+</main>
+
+<script type="module" src="category.js"></script>
+
+
+    
+</body>
+</html>

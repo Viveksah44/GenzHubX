@@ -1,0 +1,47 @@
+.admin-body{
+ background:#0a0a0a;
+ min-height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.admin-container{
+ width:500px;
+ background:#111;
+ padding:30px;
+ border-radius:15px;
+ box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
+
+.admin-container h1{
+ color:white;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+.admin-form{
+ display:flex;
+ flex-direction:column;
+ gap:15px;
+}
+
+.admin-form input,
+.admin-form select,
+.admin-form textarea{
+ padding:12px;
+ border:none;
+ border-radius:8px;
+ background:#1e1e1e;
+ color:white;
+}
+
+.admin-form button{
+ background:#e50914;
+ color:white;
+ padding:14px;
+ border:none;
+ border-radius:8px;
+ cursor:pointer;
+ font-weight:bold;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Upload</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+<div class="admin-container">
+
+  <h1>Admin Panel</h1>
+
+  <form id="postForm" class="admin-form">
+
+    <input type="text" id="title" placeholder="Post Title" required>
+
+    <select id="category">
+      <option>Anime</option>
+      <option>Movies</option>
+      <option>Tech</option>
+      <option>Study</option>
+    </select>
+
+    <textarea id="content" placeholder="Post Content"></textarea>
+
+    <input type="file" id="imageFile" accept="image/*">
+    <button type="submit">Upload Post</button>
+
+  </form>
+
+</div>
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
